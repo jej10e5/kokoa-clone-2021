@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+body {
+  font-family: "Acme", sans-serif;
+}
+.playlist {
+  display: flex;
+  height: 100vh;
+  width: 100vh;
+  border: 5px solid turquoise;
+  flex-wrap: wrap;
+}
+
+.playlist-header {
+  display: flex;
+  justify-content: center;
+  margin: 40px 20px;
+}
+
+.playlist-header__column {
+  width: 33%;
+}
+
+.playlist-header__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.playlist-header__column:first-child {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.playlist-header__column span {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.playlist-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 20px;
+}
+
+.playlist-main__sqaureicon {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  border-radius: 20%;
+  background-color: orange;
+  position: relative;
+}
+.playlist-main__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.playlist-main__textbox {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 5px;
+  width: 60%;
+}
+.playlist-main__song {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.playlist-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 10px;
+}
+
+.playlist-btn__playsquare {
+  height: 50px;
+  width: 150px;
+  border: 2px solid black;
+  border-radius: 20px;
+  position: relative;
+  box-shadow: 0px 5px black;
+}
+
+.playlist-btn__playbox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.playlist-btn__playicon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.playlist-btn__playtext {
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+}
+.playlist-btn__playtext span {
+  font-size: 28px;
+  font-weight: bold;
+}
+.playlist-btn__btnbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.playlist-btn__circle {
+  width: 50px;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 0px 5px black;
+}
+.playlist-btn__iconbox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.playlist-list {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.playlist-list__element {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 20px;
+}
+.playlist-list__sqaureicon {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.playlist-list__listtext {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.playlist-list__song {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 20px;
+  font-weight: bold;
+}
+.playlist-list__writer {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 15px;
+}
+
+.playlist-list__sqaure {
+  height: 50px;
+  width: 50px;
+  border: 2px solid black;
+  border-radius: 20%;
+}
+#list1 {
+  background-color: tomato;
+}
+#list2 {
+  background-color: pink;
+}
+#list3 {
+  background-color: royalblue;
+}
+#list4 {
+  background-color: cadetblue;
+}
