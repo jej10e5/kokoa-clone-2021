@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music</title>
+  </head>
+  <body>
+    <div class="screen">
+      <header class="screen-header">
+        <div class="screen-header__icons">
+          <span><i class="fas fa-arrow-left"></i></span>
+        </div>
+        <div class="screen-header__icons">
+          <span><i class="fas fa-search"></i></span>
+        </div>
+      </header>
+
+      <main class="music-screen">
+        <div class="music-screen__img">
+          <img
+            class="img-component__circle"
+            src="https://img.theqoo.net/img/hetpb.jpg "
+          />
+        </div>
+        <div class="music-screen__text">
+          <h3>애플, Animal Crossing</h3>
+          <h6 class="color__gray">Hamster, 아이돌</h6>
+        </div>
+        <div class="music-screen__btnlist">
+          <span class="music-screen__btn">Shuffle</span>
+          <span class="music-screen__btn">
+            <i class="fas fa-heart fa-lg icon__margin"></i>
+            <span>212 971</span></span
+          >
+        </div>
+      </main>
+
+      <section class="music-playlist">
+        <ul class="music-playlist__list">
+          <il class="music-playlist__element">
+            <img
+              class="music-playlist__img"
+              src="https://pbs.twimg.com/profile_images/1253366308734820353/4MIh4m98.jpg"
+            />
+            <div class="music-playlist__text">
+              <h6 class="color__gray">쭈니, animal Crossing</h6>
+              <h5>Cool</h5>
+            </div>
+            <i class="fas fa-ellipsis-v fa-sm color__gray"></i>
+          </il>
+          <il class="music-playlist__element">
+            <img
+              class="music-playlist__img"
+              src="https://pbs.twimg.com/profile_images/1261965968432959489/jL1MD1-M_400x400.jpg"
+            />
+            <div class="music-playlist__img-click">
+              <i class="fas fa-music music-playlist__imgicon"></i>
+            </div>
+            <div class="music-playlist__text">
+              <h6 class="color__gray">애플, animal Crossing</h6>
+              <h5>Red Apple</h5>
+            </div>
+            <i class="fas fa-ellipsis-v fa-sm color__gray"></i>
+          </il>
+          <il class="music-playlist__element">
+            <img
+              class="music-playlist__img"
+              src="https://upload.wikimedia.org/wikipedia/ko/6/67/%EB%AA%A8%EC%97%AC%EB%B4%90%EC%9A%94_%EB%8F%99%EB%AC%BC%EC%9D%98_%EC%88%B2_%ED%95%9C%EA%B5%AD%EC%96%B4_%EC%95%84%ED%8A%B8.jpg"
+            />
+            <div class="music-playlist__text">
+              <h6 class="color__gray">모여봐요, animal Crossing</h6>
+              <h5>Crossing</h5>
+            </div>
+            <i class="fas fa-ellipsis-v fa-sm color__gray"></i>
+          </il>
+          <il class="music-playlist__element">
+            <img
+              class="music-playlist__img"
+              src="https://2.gall-img.com/hygall/files/attach/images/13485120/245/595/284/85f5b242fd9fe5dc8e6685cd18a83b4c.jpg"
+            />
+            <div class="music-playlist__text">
+              <h6 class="color__gray">뽀야미&애플, duo</h6>
+              <h5>flower</h5>
+            </div>
+            <i class="fas fa-ellipsis-v fa-sm color__gray"></i>
+          </il>
+        </ul>
+      </section>
+      <section class="music-playbar">
+        <div class="music-playbar__bar">
+          <div class="music-playbar__text icon__margin">
+            <span>애플, Animal Crossing</span>
+            <span>Red Apple</span>
+          </div>
+          <div class="music-playbar__icons">
+            <i class="fas fa-step-backward fa-sm icon__margin"></i>
+            <i class="fas fa-pause fa-lg icon__margin-lg"></i>
+            <i class="fas fa-step-forward fa-sm icon__margin"></i>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="screen">
+      <header class="screen-header">
+        <div class="screen-header__icons">
+          <span><i class="fas fa-arrow-left"></i></span>
+        </div>
+        <div class="screen-header__icons">
+          <span><i class="fas fa-ellipsis-v fa-sm color__gray"></i></span>
+        </div>
+      </header>
+      <main class="main-screen">
+        <div class="main-screen__img">
+          <img
+            class="main-screen__square"
+            src="https://pbs.twimg.com/profile_images/1261965968432959489/jL1MD1-M_400x400.jpg"
+          />
+        </div>
+        <div class="main-screen__text">
+          <h3>Red Apple</h3>
+          <h5 class="color__gray text__margin">애플, Animall Crossing</h5>
+        </div>
+        <div class="main-screen__timebar">
+          <div class="main-screen__timetext">
+            <h6 class="color__gray">1:56</h6>
+            <h6 class="color__gray">3:28</h6>
+          </div>
+          <form action="music.html" method="POST">
+            <input type="range" min="0" max="10" step="0.1" val="5.7" />
+          </form>
+        </div>
+        <div class="main-screen__playbar">
+          <i class="fas fa-sync-alt color__gray"></i>
+          <i class="fas fa-step-backward"></i>
+          <i class="fas fa-play-circle fa-3x"></i>
+          <i class="fas fa-step-forward"></i>
+          <i class="fas fa-random color__gray"></i>
+        </div>
+      </main>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/811e29d39a.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

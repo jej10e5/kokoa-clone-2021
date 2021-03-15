@@ -1,0 +1,51 @@
+.main-screen__square {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  box-shadow: 0px 15px 20px lightsalmon;
+}
+
+.main-screen__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.main-screen__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.main-screen__playbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 15px;
+}
+.main-screen__timebar {
+  margin: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-screen__timetext {
+  display: flex;
+  justify-content: space-between;
+}
+
+input[type="range"] {
+  width: 100%;
+  background: var(--black);
+}
+
+input[type="range"]:focus {
+  outline: none;
+}
+
+datalist {
+  display: none;
+}

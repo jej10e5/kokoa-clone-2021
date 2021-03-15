@@ -1,0 +1,43 @@
+.music-playbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.music-playbar__bar {
+  padding: 10px 18px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+  background-color: var(--black);
+  box-shadow: 0px 0px 30px whitesmoke;
+  color: white;
+  font-size: 12px;
+  width: 90%;
+}
+
+.music-playbar__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.music-playbar__text span {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.music-playbar__text span:first-child {
+  font-size: 10px;
+  color: var(--gray);
+}
+
+.music-playbar__text span:last-child {
+  font-size: 13px;
+  color: whitesmoke;
+}
+
+.music-playbar__icons {
+  display: flex;
+}

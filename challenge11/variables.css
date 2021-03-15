@@ -1,0 +1,7 @@
+:root {
+  --yellow: rgb(252, 227, 2);
+  --horizontal-space: 25px;
+  --black: RGB(34, 34, 34);
+  --gray: rgba(155, 155, 155, 0.7);
+  --shadow: rgba(211, 211, 211, 0.5);
+}
